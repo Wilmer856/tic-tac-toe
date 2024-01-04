@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <section class="home home-start active">
+      <div class="home-container">
+        <div class="home-heading">
+          <h1 class="heading-primary">TIC-TAC-TOE</h1>
+        </div>
+        <div class="game-type">
+          <h3 class="heading-sub">How do you want to play the game?</h3>
+          <div class="game-choice-box flex">
+            <button class="game-choice game-btn pvc-btn">
+              PLAYER VS COMPUTER
+            </button>
+            <button class="game-choice game-btn pvp-btn">
+              PLAYER VS PLAYER
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home home-choice player-selection">
+      <div class="home-container">
+        <div class="home-heading">
+          <h1 class="heading-primary">TIC-TAC-TOE</h1>
+        </div>
+        <div class="game-type">
+          <h3 class="heading-sub">Who do you want to play?</h3>
+          <div class="game-choice-box flex">
+            <button class="game-btn choice-btn choice-x">
+              <img src="images/xchoice.svg" alt="" />
+            </button>
+            <button class="game-btn choice-btn choice-o">
+              <img src="images/ochoice.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home home-choice player-start">
+      <div class="home-container">
+        <div class="home-heading">
+          <h1 class="heading-primary">TIC-TAC-TOE</h1>
+        </div>
+        <div class="game-type">
+          <h3 class="heading-sub">Pick who goes first?</h3>
+          <div class="game-choice-box flex">
+            <button class="game-btn choice-btn start-x">
+              <img src="images/xchoice.svg" alt="" />
+            </button>
+            <button class="game-btn choice-btn start-o">
+              <img src="images/ochoice.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home home-game">
+      <div class="home-container">
+        <div class="turn-container">
+          <div class="timer-box">
+            <span class="timer">0:<span class="timer-lbl">10</span></span>
+          </div>
+          <h3 class="heading-primary player-turn">Player X's Turn</h3>
+        </div>
+        <div class="game-container">
+          <div class="grid-box grid-box-1" data-row="0" data-col="0"></div>
+          <div class="grid-box grid-box-2" data-row="0" data-col="1"></div>
+          <div class="grid-box grid-box-3" data-row="0" data-col="2"></div>
+          <div class="grid-box grid-box-4" data-row="1" data-col="0"></div>
+          <div class="grid-box grid-box-5" data-row="1" data-col="1"></div>
+          <div class="grid-box grid-box-6" data-row="1" data-col="2"></div>
+          <div class="grid-box grid-box-7" data-row="2" data-col="0"></div>
+          <div class="grid-box grid-box-8" data-row="2" data-col="1"></div>
+          <div class="grid-box grid-box-9" data-row="2" data-col="2"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
