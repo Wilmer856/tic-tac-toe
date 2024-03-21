@@ -104,7 +104,7 @@ const ViewController = (function (){
      }
 
      const botMovesFirst = function () {   
-        if(player2.bot) {
+        if(player2.bot && player2.turn) {
             let oppMove = GameController.findBestMove()
             GameBoard.board[oppMove[0]][oppMove[1]] = player2.symbol
             let move;
@@ -182,7 +182,7 @@ const ViewController = (function (){
 
         timer = setInterval(() => {
             remainingTime -= 1;
-            timerLbl.innerText = `${remainingTime}`;
+            timerLbl.innerText = `${remainingTime}`.padStart(2,0);
 
             if (remainingTime <= 0) {
                 switchPlayer();
