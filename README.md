@@ -11,6 +11,8 @@ This project presents a classic Tic Tac Toe game developed using HTML5, CSS3, an
 - **Responsive Design**: Crafted with HTML5 and CSS3, the game features a responsive design that adapts to different screen sizes for optimal play on any device.
 - **Easy to Play**: A user-friendly interface and simple controls ensure that players of all ages can easily understand and enjoy the game.
 
+## Getting Started
+
 1. **Open the Game:** Navigate to the following link [here](https://wilmer856.github.io/tic-tac-toe/).
 
 2. **Choose Your Mode:** Select whether to play against another player or the AI.
